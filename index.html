@@ -1,0 +1,59 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body>
+        <canvas id="main" width="1320" height="500"></canvas>
+		<span id="resetBoard" onclick="resetBoard()">↻ Reset drawing board</span>
+        <div id="detail">
+			<div id="point-1">For more information click on Robot icon!</div>
+			<div id="point-2"></div>
+			<div id="point-3"></div>
+			<div id="parallelogramArea"></div>
+			<div id="circleArea"></div>
+        </div>
+		<div class="AI">
+			<div class="avatar" onclick="showAbout()">
+				<img src="images/robot.png" />
+			</div>
+			<span class="content" id="AIContent">
+			</span>
+		</div>
+		<div id="about">
+			<h3>
+				How to use
+			</h3>
+			<p>
+				Click 3 arbitrary points on the board. based on your points i create a blue parallelogram with a yellow circle inside.
+				<br>
+				you can always Drag and Drop your points and i'll do the rest!.
+			</p>
+			<hr>
+			<h3>
+				About me
+			</h3>
+			<p>
+				I am a simple young AI and it is my pleasure to be your assistant.
+				<br>
+				My creator name is Ali Asghar Mottaghian, he is 26 and he's from Tehran, Iran.
+				<br>
+				He has 6 years of experinces in HTML, CSS, Javascript and SQL and also 2 years of experinces in React, Redux, Nodejs, Express and MongoDB.
+				<br>
+				As god created people from dust, Ali made me by Javascript. maybe i'm not intelligent but everything start's somewhere.
+				<br>
+				So this is just a test and he is looking forward to hearing from you.
+				<br>
+				if you have any question just Email Ali:<br>
+				ali.mr2am2@gmail.com
+				
+			</p>
+			<div class="closeBtn">
+				<span onclick="closeAbout()">
+					Close
+				</span>
+			</div>
+		</div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
